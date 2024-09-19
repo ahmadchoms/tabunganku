@@ -46,7 +46,6 @@ const IncomeView = () => {
     <TransactionLayout
       header="Add Income"
       icon={<ArrowCircleUp size={64} color="white" />}
-      color="green"
     >
       <form onSubmit={handleSubmit} className="space-y-6">
         <InputTransaction

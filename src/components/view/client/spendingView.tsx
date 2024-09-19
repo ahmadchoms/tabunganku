@@ -46,7 +46,6 @@ const SpendingView = () => {
     <TransactionLayout
       header="Add Spending"
       icon={<ArrowCircleDown size={64} color="white" />}
-      color="red"
     >
       <form onSubmit={handleSubmit} className="space-y-6">
         <InputTransaction
@@ -80,7 +79,6 @@ const SpendingView = () => {
         />
         {error && <p className="text-red-500 text-sm">{error}</p>}
         <ButtonTransaction
-          color="red"
           icon={<ArrowCircleDown size={24} />}
           label="Add Spending"
           isLoading={isLoading}
